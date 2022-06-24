@@ -1,0 +1,17 @@
+Exception in Verse.ParseHelper.FromString: System.FormatException: Input string was not in a correct format.
+  at System.Number.ParseSingle (System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt) [0x00083] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Single.Parse (System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Single.Parse (System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider) [0x0000e] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Convert.ToSingle (System.String value, System.IFormatProvider provider) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at Verse.FloatRange.FromString (System.String s) [0x0001e] in <81af9f8a18324e17b286924a43555a7c>:0 
+  at Verse.ParseHelper.ParseFloatRange (System.String str) [0x00000] in <81af9f8a18324e17b286924a43555a7c>:0 
+  at (wrapper delegate-invoke) System.Func`2[System.String,Verse.FloatRange].invoke_TResult_T(string)
+  at Verse.ParseHelper+Parsers`1+<>c__DisplayClass2_0[T].<Register>b__0 (System.String str) [0x00000] in <81af9f8a18324e17b286924a43555a7c>:0 
+  at Verse.ParseHelper.FromString (System.String str, System.Type itemType) [0x000a9] in <81af9f8a18324e17b286924a43555a7c>:0 
+     - transpiler net.pardeike.rimworld.lib.harmony: IEnumerable`1 VisualExceptions.ExceptionsAndActivatorHandler:Transpiler(IEnumerable`1 instructions, MethodBase original)
+
+
+
+
+
+
